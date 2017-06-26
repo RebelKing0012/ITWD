@@ -1,3 +1,12 @@
 h4 {
     border-bottom: 1px solid black;
 }
+.background {
+    background-image: url("Images/MarianHill_ActOne_FINAL.jpg");
+    background-position: center top;
+}
+
+div.center {
+    text-align: center;
+    align-content: center;
+}
