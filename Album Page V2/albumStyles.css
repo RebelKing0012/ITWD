@@ -16,7 +16,7 @@ a {
 }
 a:hover {
     background-color: orange;
-    text-decoration: underlined;
+    text-decoration: underline;
 }
 table {
     border-collapse: collapse;

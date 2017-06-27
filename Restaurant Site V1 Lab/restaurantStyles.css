@@ -1,6 +1,9 @@
+body {
+    background-color: navy;
+}
 h1 {
     font-weight: bold;
-    color: blue;
+    color: whitesmoke;
     font-family: Calibri;
 }
 footer {
@@ -17,4 +20,27 @@ form {
 }
 #itemName {
     font-size: 20px;
+}
+a:visited {
+    font-style: italic;
+}
+a:hover {
+    font-weight: bold;
+    color: yellow;
+}
+a:active {
+    text-decoration: hidden;
+}
+.bev {
+    text-align: left
+}
+.price {
+    text-align: center;
+}
+thead {
+    text-align: center;
+    text-decoration: underline;
+}
+.bevTable {
+    width: 100%;
 }
