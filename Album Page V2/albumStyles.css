@@ -10,3 +10,18 @@ div.center {
     text-align: center;
     align-content: center;
 }
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    background-color: orange;
+    text-decoration: underlined;
+}
+table {
+    border-collapse: collapse;
+    background-color: orange;
+}
+td {
+    font-style: italic;
+}
