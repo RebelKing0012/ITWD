@@ -18,10 +18,16 @@ a:hover {
     background-color: orange;
     text-decoration: underline;
 }
-table {
+.table {
     border-collapse: collapse;
-    background-color: orange;
+    background-color: skyblue;
 }
 td {
     font-style: italic;
+}
+th {
+    text-align: center;
+}
+.img {
+    vertical-align: top;
 }
