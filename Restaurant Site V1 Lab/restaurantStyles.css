@@ -45,15 +45,15 @@ thead {
     width: 100%;
 }
 .jumbotron {
-    color: blue;
+    /*color: blue;*/
     background-color: darkgrey;
-    animation-name: example;
-    animation-duration: 4s;
-}
+    /*animation-name: example;
+    animation-duration: 4s;*/
+}/*
 @keyframes example {
     from {background-color: blue;}
     to {background-color: darkgrey;}
-}
+}*/
 th {
     text-align: center;
 }
