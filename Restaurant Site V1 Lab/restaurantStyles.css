@@ -1,6 +1,3 @@
-body {
-    background-color: navy;
-}
 h1 {
     font-weight: bold;
     color: whitesmoke;
@@ -8,15 +5,22 @@ h1 {
 }
 footer {
     font-family: Calibri;
+    color: whitesmoke;
 }
 a {
     padding: 15px;
+    text-decoration: none;
+    color: whitesmoke;
 }
 form {
     font-weight: bold;
 }
-.background {
-    background-color: royalblue;
+body {
+    color: whitesmoke;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(black));
+    background-image: -webkit-linear-gradient(top, start-color, end-color);
+    background-image: -moz-linear-gradient(top, start-color, end-color);
+    background-image: linear-gradient(to bottom, start-color, end-color);;
 }
 #itemName {
     font-size: 20px;
@@ -26,10 +30,6 @@ a:visited {
 }
 a:hover {
     font-weight: bold;
-    color: yellow;
-}
-a:active {
-    text-decoration: hidden;
 }
 .bev {
     text-align: left
@@ -43,4 +43,17 @@ thead {
 }
 .bevTable {
     width: 100%;
+}
+.jumbotron {
+    color: blue;
+    background-color: darkgrey;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {background-color: blue;}
+    to {background-color: darkgrey;}
+}
+th {
+    text-align: center;
 }

@@ -2,23 +2,29 @@
 <html>
     <head>
         <title>RJ's - Menu</title>
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>        
         <link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             table{
-                border: 1px dashed red;
-                background-color: bisque;
+                border: 1px inset red;
+                background-color: transparent;
             }
         </style>
     </head>
     <body>
+        <div class="container-fluid">
         <h1 style="text-align: center;">RJ's</h1>
 
         <hr>
-
-        <a href="restSite.html"><ins>Home</ins></a><a href="menu.html"><ins>Menu</ins></a><a href="contact.html"><ins>Contact Us</ins></a>
-        
+        <ul class="nav nav-pills">
+            <li><a href="restSite.html" class="btn btn-lg"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li class="active"><a href="menu.html"><ins>Menu</ins></a></li>
+            <li><a href="contact.html"><ins>Contact Us</ins></a></li>
+        </ul>
         <hr>
-       <table>
+        
+       <table class="table table-responsive">
            <tr style="text-align:center" id="itemName">
                <th colspan="4">Burger and Fries</th>
                <th colspan="4">Hot Dog and Chips</th>
@@ -64,7 +70,7 @@
                $7.95</td></br>
            </tr>
        </table>
-       <table id="bevTable">
+       <table id="bevTable" class="table table-responsive">
            <thead>
                <tr>
                    <th colspan="12">Beverages</th>
@@ -96,5 +102,6 @@
                 123 2nd St NW, Boulder, CO, 02400<br/>
                 555-555-5555
         </footer>
+        </div>
     </body>
 </html>
